@@ -43,9 +43,9 @@
 #include "layer_buffer.h"
 #include "sdm_types.h"
 
-#ifdef FOD_ZPOS
-#include <drm/sde_drm.h>
-#endif
+//#ifdef FOD_ZPOS
+//#include <drm/sde_drm.h> this shit isnt getting readed x_x
+//#endif
 
 namespace sdm {
 
