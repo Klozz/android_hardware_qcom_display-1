@@ -51,7 +51,7 @@ ifeq ($(TARGET_COMPILE_WITH_MSM_KERNEL),true)
 # available in the build tree.
 # If the macro is not present, the headers are picked from hardware/qcom/msmXXXX
 # failing which, they are picked from bionic.
-    common_deps += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
+    common_deps += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr $(TARGET_OUT_INTERMEDIATES)/kernel/msm-4.14/usr/
     kernel_includes += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include \
                        $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include/drm \
                        $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include/display \
